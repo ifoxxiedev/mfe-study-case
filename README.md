@@ -34,3 +34,15 @@ yarn add -D @babel/core @babel/preset-env @babel/plugin-transform-runtime @vue/c
 yarn add -D webpack  babel-loader css-loader file-loader html-webpack-plugin node-sass sass-loader style-loader vue-loader vue-style-loader clean-webpack-plugin  webpack webpack-cli webpack-dev-server webpack-merge
 
 ```
+
+- Configure Webpack
+
+```js
+
+```
+
+
+## Github workflows (Pipeline CI/CD)
+- create folder .github on root folder
+- create file 'container.yaml' on .github
+- create file 'marketing.yaml' on .github
