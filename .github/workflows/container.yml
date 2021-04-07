@@ -23,7 +23,7 @@ jobs:
           # Obter no cloudfront, ou no servidor de dpeloy
           PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
 
-      - uses: ItsKarma/aws-cli@1.70.0
+      - uses: ItsKarma/aws-cli@v1.70.0
         with:
           args: s3 sync packages/container/dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}/container/latest
         env:
